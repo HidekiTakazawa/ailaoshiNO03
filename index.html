@@ -1,0 +1,1798 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時事中国語</title>
+  <style>
+    .header {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 10;
+      background-color: lemonchiffon;
+      width: 100%;
+
+
+    }
+
+    .dataContent {
+      padding-top: 180px;
+      display: block;
+    }
+
+    .dataNone {
+      display: none;
+    }
+
+    .clkBtn {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .divFlex {
+      display: flex;
+    }
+
+    .sheetSelect {
+      padding-top: 0px;
+    }
+
+    .speed {
+      padding-top: 0px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+ 
+    <h1>時事中国語</h1>
+    <div>
+      <label for="tts-select">中国語合成言語：</label><select id="tts-select"></select>
+      
+      <label for="jp-select">日本語合成言語：</label><select id="jp-select"></select>
+      
+    </div>
+    <div class="divFlex">
+      <div class="sheetSelect">
+      
+        <label for="sheet-select">シート選択：</label><select id="sheet-select" name="sheetSelect"><option value="第1课课文">第1课课文</option><option value="第2课课文">第2课课文</option><option value="第3课课文">第3课课文</option><option value="第4課課文">第4課課文</option><option value="第5课课文">第5课课文</option><option value="第6课课文 ">第6课课文 </option><option value="第7课课文">第7课课文</option><option value="第8課">第8課</option></select>
+      </div>
+      <div class="speed">
+      <label for="speech-Speed">　　音声スピード:</label>
+
+      <select name="speechSpeed" id="speech-Speed">
+          <option value="1.0">1.0</option>
+          <option value="0.9">0.9</option>
+          <option value="0.8">0.8</option>
+          <option value="0.7">0.7</option>
+          <option value="0.6">0.6</option>
+          <option value="0.5">0.5</option>
+          <option value="1.1">1.1</option>
+          <option value="1.2">1.2</option>
+          <option value="1.3">1.3</option>
+          <option value="1.4">1.4</option>
+          <option value="1.5">1.5</option>
+          <option value="1.6">1.6</option>
+          <option value="1.7">1.7</option>
+          <option value="1.8">1.8</option>
+          <option value="1.9">1.9</option>
+          <option value="2.0">2.0</option>
+          
+      </select>
+    </div>
+    
+  </div>
+    
+    
+    
+  </div>
+  
+      <div class="dataContent">
+  <table border="1">
+            
+    <tbody><tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          段No.        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 簡体字  </td>
+<td>          ピンイン</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 日本語訳  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 第１課     2022年，中国的“超级航天年”  </td>
+<td>          dì １ kè           èrlíngèrèr nián ， zhōngguó de “ chāojí hángtiān nián ”</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 2022年は中国の「スーパー宇宙年」  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1の第１句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 2022年6月5日，在“神州十三号”回家不到两个月后，又有三名航天员去宇宙“出差”了！  </td>
+<td>          èrlíngèrèr nián liù yuè wǔ rì ， zài “ shénzhōu shísānhào ” huíjiā bùdào liǎnggè yuè hòu ， yòu yǒu sānmíng hángtiānyuán qù yǔzhòu “ chūchāi ” le ！</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 2022年6月5日、 「神舟 13号」が帰着して2カ月足らずでまた3名の宇宙飛行士 が宇宙への 「出張」に旅立ちました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1の第2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 这是中国航天员第九次踏上征途，也是“长征”系列运载火箭第423次冲向太空。  </td>
+<td>          zhèshì zhōngguó hángtiānyuán dìjiǔcì tàshàng zhēngtú ， yě shì “ chángzhēng ” xìliè yùnzàihuǒjiàn dì 4èrsān cì chōngxiàng tàikōng 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> これは中国の宇宙飛行士の9度目の遠征で「長 征」シリーズ運搬ロケットの423度目の発射でもあります。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          2の第１句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 接着，7月24日，“问天实验舱”也被送入了太空，并且在13小时后，完成了与“天和核心舱”的对接任务。  </td>
+<td>          jiēzhe ， 7 yuè èr4 rì ， “ wèntiān shíyàncāng ” yě bèi sòngrù le tàikōng ， bìngqiě zài yīsān xiǎoshí hòu ， wánchéng le yǔ “ tiān hé héxīn cāng ” de duìjiē rènwu 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 続いて7月24日、「問天実験モジュール」も宇宙へと送られ13時間後に「天和コ アモジュール」 とのドッキング任務を完了しました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          2の第2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 这是中国首次实现了两个20吨级航天器的在轨对接任务。  </td>
+<td>          zhèshì zhōngguó shǒucì shíxiàn le liǎnggè èrlíng dūnjí hángtiānqì de zài guǐ duìjiē rènwu 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> これで、 中国は初めて 20トン級の宇宙船2基の軌道上ドッキングミッションを成功せたのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          3の第１句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 中国空间站“天宫”由三个部分组成：2021年升空的“天和核心舱”，2022年5月和7月升空的“天舟四号”和“问天实验舱”。  </td>
+<td>          zhōngguó kōngjiānzhàn “ tiāngōng ” yóu sānge bùfen zǔchéng ： èrlíngèryī nián shēngkōng de “ tiān hé héxīn cāng ” ， èrlíngèrèr nián wǔ yuè hé 7 yuè shēngkōng de “ tiānzhōu sìhào ” hé “ wèntiān shíyàncāng ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 中国宇宙ステーション「天宮」は3つの部分からできています。 2021年に打ち上げ られた「天和コアモジュール」、 2022年5月と7月に打ち上げられた 「天舟4号」と 「問天実験モジュール」 です。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          3の第2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> “天宫”在2022年年底完成后，将正式开启中国的空间站时代。  </td>
+<td>          “ tiāngōng ” zài èrlíngèrèr nián niándǐ wánchéng hòu ， jiàng zhèngshì kāiqǐ zhōngguó de kōngjiānzhàn shídài 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 「天宮」 が 2022 年末に完成すれば中国の宇宙ステーション時代が正式に幕を開けます。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          4の第１句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 从远古的女娲补天，嫦娥本月，牛郎织女等神话传说开始，可以说，中国人的飞天梦已经做了几千年，而中国的航天事业真正起步还是在上世纪五六十年代。  </td>
+<td>          cóng yuǎngǔ de nǚwābǔtiān ， chángé běnyuè ， niúlángzhīnǚ děng shénhuàchuánshuō kāishǐ ， kěyǐ shuō ， zhōngguó rén de fēitiānmèng yǐjīng zuò le jǐqiānnián ， ér zhōngguó de hángtiānshìyè zhēnzhèng qǐbù háishi zài shàng shìjì wǔliùshíniándài 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 遥か昔の 「女媧が天を補う」 「嫦娥が月へ奔る」 「牽牛織女」 などの神話伝説から、 中 国人は天空への夢を数千年も見続けてきたと言えます。 しかし中国の宇宙事業が正式に 始まったのは1950~60年代でした。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          4の第2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 1970年4月，第一颗人造卫星“东方红一号”在酒泉发射成功，中国成为世界上第五个发射人造卫星的国家。  </td>
+<td>          yījiǔ7líng nián 4 yuè ， dìyīkē rénzàowèixīng “ dōngfānghóngyīhào ” zài jiǔquán fāshèchénggōng ， zhōngguó chéngwéi shìjiè shàng dìwǔgè fāshè rénzàowèixīng de guójiā 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 1970年4月、初の人工衛星 「東方紅1号が酒 泉からの発射に成功し、 中国は世界で5番目の人工衛星打ち上げ国になりました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          5の第1句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 1992年，“神州”号载人飞船工程正式列入国家计划。  </td>
+<td>          yījiǔjiǔèr nián ， “ shénzhōu ” hào zàirén fēichuán gōngchéng zhèngshì lièrù guójiājìhuà 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 1992年 「神舟」 有人宇宙船プロジェクトが正式に国家計画に入れられます。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          5の第2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 1999年11月20日，“神州一号”试验飞船在酒泉起飞。  </td>
+<td>          yījiǔjiǔjiǔ nián shíyī yuè èrlíng rì ， “ shénzhōu yīhào ” shìyàn fēichuán zài jiǔquán qǐfēi 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 1999 年11月20実験宇宙船「神舟1号」 が酒泉から飛び立ちました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          5の第3句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 经过多次试验飞行，2003年10月，中国第一位航天员杨利伟乘坐“神州五号”飞船进入太空，实现了中华民族千年飞天梦想。  </td>
+<td>          jīngguò duōcì shìyàn fēixíng ， èrlínglíngsān nián yīlíng yuè ， zhōngguó dìyīwèi hángtiānyuán yánglìwěi chéngzuò “ shénzhōu wǔhào ” fēichuán jìnrù tàikōng ， shíxiàn le zhōnghuámínzú qiānnián fēitiān mèngxiǎng 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 幾度もの試験飛 行を経て、2003年10月に中国初の宇宙飛行士、 楊利偉さんが 「神舟5号」 に乗って 宇宙へ飛び立ち、 中華民族の千年にわたる天空への夢を実現させました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          6の第1句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 如今，航天已成为全民热门话题。  </td>
+<td>          rújīn ， hángtiān yǐ chéngwéi quánmín rèménhuàtí 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 今や宇宙飛行はすでに全国民のホットな話題となっています。   </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          6の第2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 中国通过29年的不懈探索，让“神舟”，“天舟”和“天宫”等一系列浪漫的名字逐渐变成现实，让中华文明古老的飞天神话从梦想走向现实！  </td>
+<td>          zhōngguó tōngguò èrjiǔ nián de bùxiè tànsuǒ ， ràng “ shénzhōu ” ， “ tiānzhōu ” hé “ tiāngōng ” děng yīxìliè làngmàn de míngzì zhújiàn biànchéng xiànshí ， ràng zhōnghuáwénmíng gǔlǎo de fēitiān shénhuà cóng mèngxiǎng zǒuxiàng xiànshí ！</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 中国は29年にわたっ て絶えず模索を続け、 「神舟」 「天舟」 「天宮」 といった一連のロマンチックな名前を少 しずつ現実のものとし、 中華文明の遥か昔からの飛天神話を夢から現実へと向かわせた のです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+            </tbody></table>
+  </div>
+        <div class="dataContent dataNone">
+  <table border="1">
+            
+    <tbody><tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          段No.        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 簡体字  </td>
+<td>          ピンイン</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 日本語訳  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 第2課   不破楼兰终不还  </td>
+<td>          dì èr kè       bùpò lóulán zhōngbù huán</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 楼蘭を破らずんばに還らじ  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 2022年是中国近代考古学诞生100周年之年，侯灿编写的《楼兰考古调查与发掘报告》也终于问世。楼兰曾经是丝绸之路上贯通东西的绿洲王国，但在公元四世纪后，突然神秘消失。1900年，瑞典探险家斯文·赫定一行在中国西域偶然发现了楼兰古城和游移的湖泊“罗布泊”。  </td>
+<td>          èrlíngèrèr nián shì zhōngguó jìndài kǎogǔxué dànshēng yīlínglíng zhōunián zhī nián ， hóucàn biānxiě de 《 lóulán kǎogǔ diàochá yǔ fājué bàogào 》 yě zhōngyú wènshì 。 lóulán céngjīng shì sīchóuzhīlù shàng guàntōng dōngxi de lǜzhōu wángguó ， dàn zài gōngyuán sì shìjì hòu ， tūrán shénmì xiāoshī 。 yījiǔlínglíng nián ， ruìdiǎn tànxiǎnjiā sīwén  hèdìng yīxíng zài zhōngguó xīyù ǒurán fāxiàn le lóulán gǔchéng hé yóuyí de húpō “ luóbùbó ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 2022年は中国近代考古学誕生百周年です。 僕燦氏が編纂した 『楼蘭考古調査・発掘 報告』もついに日の目を見ました。 楼蘭はかつて、シルクロードにおいて洋の東西をつ なぐオアシス国家でしたしかし紀元 4 世紀後、不思議なことに突然姿を消します。 1900年スウェーデンの探検家スヴェン・ヘディン一行が中国西城で楼蘭城址とさ まよえる湖 「ロプノール」 を偶然発見しました.  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          2        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 楼兰，曾频频出现在中国古代的史书和诗词中。司马迁的《史记》中就曾记载：“楼兰、姑师，邑有城郭，临盐泽。”显然，楼兰在当时已经是一个城郭之国。唐朝诗人王昌龄的名句“不破楼兰终不还”也影响了后世的中国人。有人曾调查统计过，发现共有68首古诗词提到过楼兰。  </td>
+<td>          lóulán ， zēng pínpín chūxiàn zài zhōngguó gǔdài de shǐshū hé shīcí zhōng 。 sīmǎqiān de 《 shǐjì 》 zhōng jiù zēng jìzǎi ： “ lóulán  gūshī ， yì yǒu chéngguō ， lín yánzé 。 ” xiǎnrán ， lóulán zài dàngshí yǐjīng shì yīgè chéngguō zhī guó 。 tángcháo shīrén wángchānglíng de míngjù “ bùpò lóulán zhōngbù huán ” yě yǐngxiǎng le hòushì de zhōngguó rén 。 yǒurén zēng diàochá tǒngjì guò ， fāxiàn gòngyǒu liùbā shǒu gǔshīcí tídào guò lóulán 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 楼蘭は、 中国古代の歴史書や詩詞にかつてしばしば現れました。 司馬遷の『史記』 に は「楼蘭・姑師は町に城郭があり、ロプノールに面している」 という記載がありましたこのことから分かるように楼蘭は当時すでに城郭を持った国だったのです。 唐の詩人 王昌齢の名句「楼蘭を破らずんば終に還らじ」 [従軍行］も後世に影響を与えました。 かつて調査・統計を行った人によれば、 楼蘭について触れている古代の詩が合わせて68 首あることが分かっています。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          3        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 中国人真正进入楼兰古城，却是在1979年。那一年，中日决定联合拍摄《丝绸之路》电视系列片，其中楼兰部分由中方单独拍摄。年轻的考古学家侯灿两次奉命率考古队进入楼兰，一边协助拍摄，一边进行考古发掘工作。他们在楼兰古城遗址中第一次发现了一条古水道，证明了水是支撑楼兰王国繁荣的重要生存基础。  </td>
+<td>          zhōngguó rén zhēnzhèng jìnrù lóulán gǔchéng ， quèshì zài yījiǔ7jiǔ nián 。 nà yīnián ， zhōngrì juédìng liánhé pāishè 《 sīchóuzhīlù 》 diànshì xìlièpiàn ， qízhōng lóulán bùfen yóu zhōngfāng dāndú pāishè 。 niánqīng de kǎogǔxuéjiā hóucàn liǎngcì fèngmìng lǜ kǎogǔduì jìnrù lóulán ， yībiān xiézhù pāishè ， yībiān jìnxíng kǎogǔ fājué gōngzuò 。 tāmen zài lóulán gǔchéng yízhǐ zhōng dìyīcì fāxiàn le yītiáo gǔ shuǐdào ， zhèngmíng le shuǐ shì zhīchēng lóulánwángguó fánróng de zhòngyào shēngcún jīchǔ 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> けれども、中国人が実際に楼蘭城址に入ったのは1979年のことです。 この年、中国日本はテレビドキュメンタリーシリーズ 「シルクロード 」 を共同制作することを決め楼蘭部分は中国側が単独で撮影しました新鋭の考古学者侯氏は2度にわたり命令を受け、 考古チームを率いて楼蘭に入り、撮影に協力しながら考古発掘作業を進めました彼らは楼蘭城址遺跡で、初めて古い水道を発見し、水が楼蘭王国の繁栄を支えた重要な生存基盤であったことを証明したのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          4        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 在孤台墓地，一行还找到了绣着“永昌”等铭文的丝织品。另一支考古队则找到了一具木乃伊，就是闻名于世的“楼兰美女”。  </td>
+<td>          zài gūtái mùdì ， yīxíng huán zhǎodào le xiù zhe “ yǒngchāng ” děng míngwén de sīzhīpǐn 。 lìng yīzhī kǎogǔduì zé zhǎodào le yījù mùnǎiyī ， jiùshì wénmíngyúshì de “ lóulán měinǚ ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 孤台墓地では一行は「永昌」などの銘文を刺繍した組織物も発見しました。 また別 の考古チームは1体のミイラを発見しましたこれがかの有名な「楼蘭の美女」です。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          5        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 对楼兰的研究，不论从历史来看，还是从东西方文化交流的位置来讲，都是极其重要的。同时，楼兰的神秘消失，也吸引了地理、环境、气候等多门学科国际学术界专家的关注。  </td>
+<td>          duì lóulán de yánjiū ， bùlùn cóng lìshǐ láikàn ， háishi cóng dōngxīfāng wénhuàjiāoliú de wèizhi láijiǎng ， dū shì jíqízhòngyào de 。 tóngshí ， lóulán de shénmì xiāoshī ， yě xīyǐn le dìlǐ  huánjìng  qìhòu děng duōmén xuékē guójì xuéshùjiè zhuānjiā de guānzhù 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 楼蘭についての研究は歴史的に見ても、東西文化交流という立場から見ても、きわ めて重要です。 同時に楼蘭が消えた謎は地理・環境・ 気候など多分野の国際的学術 界の専門家からも注目されています。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+            </tbody></table>
+  </div>
+        <div class="dataContent dataNone">
+  <table border="1">
+            
+    <tbody><tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          段No.        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 簡体字  </td>
+<td>          ピンイン</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 日本語訳  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 第3課 　　胡月，超酷！  </td>
+<td>          dì sān kè   　 　 húyuè ， chāokù ！</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 超クール!「閃光少女」  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 黑暗中，假肢闪闪发光。“闪光少女”名叫胡月，在汶川地震中因受伤而截肢。乐观的她，为自己设计了闪光假肢，惊艳无数人。  </td>
+<td>          hēiàn zhōng ， jiǎzhī shǎnshǎnfāguāng 。 “ shǎnguāng shàonǚ ” míngjiào húyuè ， zài wènchuān dìzhèn zhōngyīn shòushāng ér jiézhī 。 lèguān de tā ， wéi zìjǐ shèjì le shǎnguāng jiǎzhī ， jīngyàn wúshù rén 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 暗闇の中で義肢がきらきらと光ります。 「閃光少女」 の名は胡月、汶川地震で負傷し て足を切断しました。 けれどもポジティブな彼女は、自ら光る義肢をデザインし、多く の人を魅了したのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          2        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 2008年汶川地震，年仅12岁的胡月被救出来时，由于伤势严重，不得不进行截肢。截肢后，胡月也担心别人用异样的眼光看。2018年，她第一次穿了短裤。  </td>
+<td>          èrlínglíngbā nián wènchuān dìzhèn ， niánjǐn yīèr suì de húyuè bèi jiù chūlái shí ， yóuyú shāngshì yánzhòng ， bùdébù jìnxíng jiézhī 。 jiézhī hòu ， húyuè yě dānxīn biéren yòng yìyàng de yǎnguāng kàn 。 èrlíngyībā nián ， tā dìyīcì chuān le duǎnkù 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 2008年の汶川地震で、わずか12歳の胡月さんが救出されたとき、重傷のため足を切 断せざるを得ませんでした。 手術後は、 胡月さんも人から変な目で見られることを心配 していましたが、2018年に初めてショートパンツを穿きました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          3        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 心态的巨大转变始于2022年初。胡月受邀参加了2022年北京冬残奥会开幕式表演。“我认识了很多同样截肢的朋友，其中还有截肢后登上珠穆朗玛峰的人。这让我意识到截肢患者也可以做很多事，也可以去追逐梦想，不必太在意别人的眼光。”  </td>
+<td>          xīntài de jùdà zhuǎnbiàn shǐyú èrlíngèrèr niánchū 。 húyuè shòuyāo cānjiā le èrlíngèrèr nián běijīng dōng cánàohuì kāimùshì biǎoyǎn 。 “ wǒ rènshi le hěnduō tóngyàng jiézhī de péngyou ， qízhōng háiyǒu jiézhī hòu dēngshàng zhūmùlǎngmǎfēng de rén 。 zhè ràng wǒ yìshí dào jiézhī huànzhě yě kěyǐ zuò hěnduō shì ， yě kěyǐ qù zhuīzhú mèngxiǎng ， bùbì tài zàiyì biéren de yǎnguāng 。 ”</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 気持ちの大きな変化は2022年初めに起こりました。 胡さんは招かれて 2022年の 北京冬季パラリンピック開幕式のパフォーマンスをしたのです。 「同じように切断手術 を受けた友達がたくさんできました。 その中には足の切断後にチョモランマに登った人 もいたんです。 このことで私は、手足を切断した人でもいろんなことができるし、夢を 追いかけてもいい人の目をそんなに気にしなくていいんだと思うようになりました」  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          4        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 最近，胡月将自己的假肢装饰出了酷炫闪光效果，大家也亲切地称她是“真实版闪光少女”。胡月说，这个闪光假肢外壳是由她和学设计的朋友一起设计的，而这位朋友也是一位截肢患者。如今，穿着酷炫的假肢走在路上，胡月也变得更加自信。  </td>
+<td>          zuìjìn ， húyuè jiàng zìjǐ de jiǎzhī zhuāngshì chū le kù xuàn shǎnguāng xiàoguǒ ， dàjiā yě qīnqiè dìchēng tā shì “ zhēnshí bǎn shǎnguāng shàonǚ ” 。 húyuè shuō ， zhège shǎnguāng jiǎzhī wàiké shì yóu tā hé xué shèjì de péngyou yīqǐ shèjì de ， ér zhèwèi péngyou yě shì yīwèi jiézhī huànzhě 。 rújīn ， chuānzhuó kùxuàn de jiǎzhī zǒu zài lùshang ， húyuè yě biànde gèngjiā zìxìn 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 最近、 胡月さんは自分の義肢にまばゆい閃光エフェクトをデコし、みんなも親しみを 込めて彼女を「リアル版閃光少女」 と呼んでくれました。 胡月さんは言います。 この光 る義肢のボディは彼女と、デザインを学ぶ友達とが一緒にデザインしたもので、その友 達もやはり足を切断した人なのだと。 今では、光る義肢をつけて歩いても、 胡月さんは いっそう自信を持てるようになりました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          5        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 生活和工作中的胡月是一个爱笑、爱运动的女孩子。她喜欢滑板、跳舞等运动，尤其享受在滑板上风从耳边呼啸而过的感觉。“脚踩在滑板上，风吹过来的时候，特别舒服，感觉自己非常自由，可以滑去任何地方。”胡月说，不太喜欢别人同情的目光，“虽然我受过伤，但我一直在运动中寻找快乐。”她说，还有一个梦想，希望能带着她的小钢腿去潜水、去跳伞、去看遍江河湖海平原山川。  </td>
+<td>          shēnghuó hé gōngzuò zhōng de húyuè shì yīgè àixiào  ài yùndòng de nǚháizi 。 tā xǐhuan huábǎn  tiàowǔ děng yùndòng ， yóuqí xiǎngshòu zài huábǎn shàngfēng cóng ěrbiān hūxiàoérguò de gǎnjué 。 “ jiǎo cǎi zài huábǎn shàng ， fēng chuīguòlái de shíhou ， tèbié shūfu ， gǎnjué zìjǐ fēicháng zìyóu ， kěyǐ huá qù rènhé dìfāng 。 ” húyuè shuō ， bùtài xǐhuan biéren tóngqíng de mùguāng ， “ suīrán wǒ shòuguòshāng ， dàn wǒ yīzhí zài yùndòng zhōng xúnzhǎo kuàilè 。 ” tā shuō ， háiyǒu yīgè mèngxiǎng ， xīwàng néngdài zhe tā de xiǎogāng tuǐ qù qiánshuǐ  qù tiàosǎn  qù kànbiàn jiānghéhúhǎi píngyuán shānchuān 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 生活と仕事での胡月さんは、よく笑うスポーツ好きな女性です。 彼女はスケートボー ドやダンスなどの運動が好きで、 特にスケートボードに乗り、耳元を風が吹き過ぎる感 覚が大好きです。 「足でボードを踏み、 風が吹いてくるときが特に気持ちいいんです。 自分がとても自由で、 どこにでも滑って行ける気がします」 と胡月さんは言います。 人 から同情の目で見られるのはあまり好きではなく、 「けがはしたけど、 ずっとスポーツ で楽しみを求めています」。 彼女には夢もあって、 鉄の足をつけてダイビングをしたりスカイダイビングをしたり、川や野原や山などを見て回ったりしたいと思っています。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          6        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 自信的女孩最美，为“闪光少女”点赞！  </td>
+<td>          zìxìn de nǚhái zuìměi ， wéi “ shǎnguāng shàonǚ ” diǎnzàn ！</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 自信を持った女性は最も美しい。 「閃光少女」 「いいね」を!  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+            </tbody></table>
+  </div>
+        <div class="dataContent dataNone">
+  <table border="1">
+            
+    <tbody><tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          段No.        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 簡体字  </td>
+<td>          ピンイン</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 日本語訳  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 第4课  国潮，仍在继续  </td>
+<td>          dì 4 kè     guócháo ， réng zài jìxù</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 国産ブーム、いまなお健在  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> &lt;1&gt;“新中式穿搭”  </td>
+<td>          &lt; yī &gt; “ xīn zhōngshì chuān dā ”</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 新チャイナスタイル  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 2022年夏天,“新中式穿搭”大流行。所谓的“新中式穿搭”，就是把一些传统元素搭配在现在的服装款式上，既有实用性又有现代感。传统中式元素一是指款式，比如立领、斜襟、盘扣等；二是指工艺和图案，比如刺绣、山水花鸟、书法等。这些元素被加入现代时装中，就会呈现出崭新的风格。  </td>
+<td>          èrlíngèrèr nián xiàtiān , “ xīn zhōngshì chuān dā ” dà liúxíng 。 suǒwèi de “ xīn zhōngshì chuān dā ” ， jiùshì bǎ yīxiē chuántǒng yuánsù dāpèi zài xiànzài de fúzhuāng kuǎnshi shàng ， jìyǒu shíyòngxìng yòu yǒu xiàndàigǎn 。 chuántǒng zhōngshì yuánsù yīshì zhǐ kuǎnshi ， bǐrú lìlǐng  xiéjīn  pánkòu děng ； èrshì zhǐ gōngyì hé túàn ， bǐrú cìxiù  shānshuǐ huāniǎo  shūfǎ děng 。 zhèxiē yuánsù bèi jiārù xiàndài shízhuāng zhōng ， jiù huì chéngxiànchū zhǎnxīn de fēnggé 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 2022年夏、「新チャイナスタイル」が大流行しました。いわゆる「新チャイナスタイル」とは、伝統的な要素を現在のファッションに組み合わせたもので、実用的でもあり、モダンでもあります。伝統的な中国的要素とは、まず、スタンドカラー、斜めに開く襟、飾りボタンなどのデザインを指します。次に、刺繍、山水花鳥、書道といった手工芸と図案を指します。こうした要素がモダンなファッションに加わることで、斬新なスタイルになるのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          2        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> “新中式穿搭”的火爆，与中国人心中的古典情愫也有着密不可分的关系。但是纯中式风的穿搭，在日常中似乎有点过于沉重，因此，传统元素的点缀式用法更符合现代人的审美观，随意但又吸睛。  </td>
+<td>          “ xīn zhōngshì chuān dā ” de huǒbào ， yǔ zhōngguó rén xīnzhōng de gǔdiǎn qíngsù yě yǒuzhe mìbùkěfēn de guānxi 。 dànshì chún zhōngshì fēng de chuān dā ， zài rìcháng zhōng sìhū yǒudiǎn guòyú chénzhòng ， yīncǐ ， chuántǒng yuánsù de diǎnzhuì shì yòngfǎ gēng fúhé xiàndàirén de shěnměiguān ， suíyì dàn yòu xījīng 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 「新チャイナスタイル」の大流行は、中国人の胸の中にある古典的な味わいとも密接な関係があります。しかし純粋な中国風スタイルは、ふだん使いには少々重すぎるのです。そこで、伝統的な要素をちょっぴり加える形は現代人の美的感覚にマッチしました。カジュアルですが目を引きます。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          3        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 如果说“旗袍不挑中国人”那么“新中式旗袍”则是谁穿谁好看。  </td>
+<td>          rúguǒshuō “ qípáo bù tiāo zhōngguó rén ” nàme “ xīn zhōngshì qípáo ” zé shì shéi chuān shéi hǎokàn 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> もし「チャイナドレスは中国人なら誰にでも似合う」というなら、「新チャイナスタイル」はだれが着てもきれいなのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> ＜2＞中药治新冠  </td>
+<td>          ＜ èr ＞ zhōngyào zhìxīnguān</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 中国伝統薬（漢方薬）で新型コロナを治療  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 2021年10月中旬以后，国内多地相继发生新冠疫情。在这场没有硝烟的战“疫”中，中医药发挥了重要作用。2020年1月，武汉发生新冠疫情后，国家卫健委和中医药管理局就推荐使用中药，起到了有效的治疗效果。  </td>
+<td>          èrlíngèryī nián yīlíng yuè zhōngxún yǐhòu ， guónèi duōdì xiāngjì fāshēng xīnguān yìqíng 。 zài zhèchǎng méiyǒu xiāoyān de zhàn “ yì ” zhōng ， zhōngyīyào fāhuī le zhòngyào zuòyòng 。 èrlíngèrlíng nián yī yuè ， wǔhàn fāshēng xīnguān yìqíng hòu ， guójiā wèijiànwěi hé zhōngyīyào guǎnlǐjú jiù tuījiàn shǐyòng zhōngyào ， qǐdào le yǒuxiào de zhìliáo xiàoguǒ 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 2021年10月中旬以降、国内の多くの場所で次々に新型コロナの感染が起こりました。この硝煙のない戦「疫」で、中医薬が大きな役割を果たします。2020年1月に武漢でコロナ禍が発生してすぐ、国家衛生健康委員会と中医薬管理局は漢方薬を使うよう薦め、有効な治療効果をあげました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          2        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 2021年以后，各地的定点医院都让患者在第一时间服用中药汤剂。担任调剂、煎煮和配送任务的也都是各地的中医药大学。一位参与治疗的中医师说，“患者都很积极配合中医治疗，服用中药后，不仅症状有所减轻，而且心理上的紧张一定程度得到了缓解”。  </td>
+<td>          èrlíngèryī nián yǐhòu ， gèdì de dìngdiǎnyīyuàn dū ràng huànzhě zài dìyī shíjiān fúyòng zhōngyào tāngjì 。 dānrèn tiáojì  jiānzhǔ hé pèisòng rènwu de yě dū shì gèdì de zhōngyīyàodàxué 。 yīwèi cānyù zhìliáo de zhōngyīshī shuō ， “ huànzhě dū hěn jījí pèihé zhōngyī zhìliáo ， fúyòng zhōngyào hòu ， bùjǐn zhèngzhuàng yǒusuǒ jiǎnqīng ， érqiě xīnlǐ shàng de jǐnzhāng yīdìng chéngdù dédào le huǎnjiě ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 2021年以降、各地の指定医院は患者にまず液体の漢方薬を服用させました。調剤し、薬を煎じ、配送する任務を担ったのも各地の中医薬大学です。治療に加わった中医師は、「患者はみなこの治療に協力してくれました。中医薬を飲むと症状がやや軽くなっただけでなく、心理的なストレスもある程度やわらげられました」と話します。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          3        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 中医专家张伯礼主导了中医药参与治疗新冠的工作，他认为，“中医西医互相协同，对于减轻肺脏炎症，促进吸收，提高免疫功能，保护脏器，都是效果明确的”。  </td>
+<td>          zhōngyī zhuānjiā zhāngbólǐ zhǔdǎo le zhōngyīyào cānyù zhìliáo xīnguān de gōngzuò ， tā rènwéi ， “ zhōngyī xīyī hùxiāng xiétóng ， duìyú jiǎnqīng fèizàng yánzhèng ， cùjìn xīshōu ， tígāo miǎnyì gōngnéng ， bǎohù zàngqì ， dū shì xiàoguǒ míngquè de ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 中医学の専門家、張伯礼氏は漢方薬を新型コロナ治療に加える活動を主導しました。彼は、「中医学と西洋医学を一緒に使うことは、肺の炎症の軽減、呼吸の促進、免疫力の向上、臓器の保護、いずれにも効果てきめんです」と話します。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn">   </td>
+<td>          </td>
+       <td onclick="speakJapanese(this)" class="clkBtn">   </td>  
+        
+        <td>                    </td>
+
+    </tr>
+            </tbody></table>
+  </div>
+        <div class="dataContent dataNone">
+  <table border="1">
+            
+    <tbody><tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          段No.        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 簡体字  </td>
+<td>          ピンイン</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 日本語訳  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 第5课  “帐篷经济”折射消费新趋势  </td>
+<td>          dì wǔ kè     “ zhàngpeng jīngjì ” zhéshè xiāofèi xīn qūshì</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 「テント経済」に見る新たな消費トレンド  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 支一顶帐篷，带一些食物，邀三五好友，拥抱自然，共话家常。近年来，露营成为广受欢迎的休闲娱乐活动之一。通过这种形式的“微度假”，人们感受回归自然的舒适，尽享与家人朋友相聚的快乐。  </td>
+<td>          zhī yīdǐng zhàngpeng ， dài yīxiē shíwù ， yāo sānwǔ hǎoyǒu ， yōngbào zìrán ， gòng huàjiācháng 。 jìnniánlái ， lùyíng chéngwéi guǎng shòuhuānyíng de xiūxián yúlèhuódòng zhīyī 。 tōngguò zhèzhǒng xíngshì de “ wēi dùjià ” ， rénmen gǎnshòu huíguīzìrán de shūshì ， jìnxiǎng yǔ jiārén péngyou xiāngjù de kuàilè 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> テントを１つ張って食べ物を少々携え、仲のいい友達を数人誘って、自然の中で気楽なおしゃべりに花を咲かせる。近年、キャンプは多くの人に人気のレジャー活動の1つになっています。こうした「ちょい休暇」によって人々は自然回帰の心地よさを感じ、家族や友人と集まる楽しみを満喫するのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          2        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> “3、2、1，茄子。”90后的杨家秋和两位朋友正对着手机镜头开心自拍。三个人在旅行平台上刷到一个不太远但很有人气的露营地后，说走就走，驱车一个小时赶来。  </td>
+<td>          “ sān  èr  yī ， qiézi 。 ” jiǔlíng hòu de yángjiā qiū hé liǎngwèi péngyou zhèngduìzhe shǒujī jìngtóu kāixīn zìpāi 。 sānge rén zài lǚxíng píngtái shàngshuā dào yīgè bùtàiyuǎn dàn hěn yǒurén qì de lùyíngdì hòu ， shuōzǒujiùzǒu ， qūchē yīgè xiǎoshí gǎnlái 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 「３，２，１、チーズ」。90年代生まれの楊金秋さんは2人の友人とスマホのカメラに向かって楽し気に自撮り。3人は旅行サイトで、あまり遠くないけれど人気のキャンプ場を見つけると、すぐさま車を1時間走らせてやって来ました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          3        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 数据显示，2022年上半年，“露营”在旅行平台的访问热度达到历史峰值。购物平台上，帐篷、天幕、户外椅、户外垫等成为消费者新宠。2022年6月25日，北京、郑州、青岛、深圳、厦门五个城市，七家营地在同一时间、不同城市举办了一场户外音乐会，为户外生活增添了人文色彩。  </td>
+<td>          shùjù xiǎnshì ， èrlíngèrèr nián shàngbànnián ， “ lùyíng ” zài lǚxíng píngtái de fǎngwèn rèdù dádào lìshǐ fēngzhí 。 gòuwù píngtái shàng ， zhàngpeng  tiānmù  hùwài yǐ  hùwài diàn děng chéngwéi xiāofèizhě xīnchǒng 。 èrlíngèrèr nián liù yuè èrwǔ rì ， běijīng  zhèngzhōu  qīngdǎo  shēnzhèn  xiàmén wǔgè chéngshì ， qījiā yíngdì zài tóngyīshíjiān  bùtóng chéngshì jǔbàn le yīcháng hùwài yīnyuèhuì ， wéi hùwài shēnghuó zēngtiān le rénwén sècǎi 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> データによれば、2022年の上半期、「キャンプ」は旅行サイトの閲覧回数が史上最多を記録しました。ショッピングサイトでは、テント、天幕、アウトドアチェア、アウトドアクッションなどが消費者の新たなお気に入り商品になっています。2022年6月25日、北京・鄭州・青島・深圳・厦門の5都市、7カ所のキャンプ場で、同時刻・別地点の野外コンサートが開かれ、アウトドア生活に文化の彩りを添えました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          4        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 露营商品其实早在1994年就问世了，但直到2008年北京奥运会后才有了起色。但是，2015年以后，商品销售量持续下降。到2019年之前，很多户外用品销售公司退出市场，“那时候，真的是没法干了，两个交叉杆的帐篷卖两百多，毛利润大概只有10％”，一家公司老板说。  </td>
+<td>          lùyíng shāngpǐn qíshí zǎo zài yījiǔjiǔ4 nián jiù wènshì le ， dàn zhídào èrlínglíngbā nián běijīng àoyùnhuì hòu cái yǒu le qǐsè 。 dànshì ， èrlíngyīwǔ nián yǐhòu ， shāngpǐn xiāoshòuliàng chíxù xiàjiàng 。 dào èrlíngyījiǔ nián zhīqián ， hěnduō hùwàiyòngpǐn xiāoshòu gōngsī tuìchū shìchǎng ， “ nà shíhou ， zhēnde shì méifǎ gān le ， liǎnggè jiāochā gǎn de zhàngpeng mài liǎngbǎiduō ， máolìrùn dàgài zhǐyǒu yīlíng ％ ” ， yījiā gōngsī lǎobǎn shuō 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 実は、キャンプ用品は1994年には売り出されていたいたのですが、2008年の北京オリンピック後になってようやく人気が出ました。しかし2015年以降、商品販売量は右肩下がりで、2019年までに多くのアウトドア用品販売会社が市場から撤退しました。「あの時期は本当にどうしようもなかったのです。クロスポールテントが200元余りでは、粗利は10%くらいにしかなりません」と、ある会社の社長は話します。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          5        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 2020年也被称为中国露营元年。在随后的两年里，受疫情叠加影响，露天开放的近郊游和无接触服务，成为更多游客的选择。如今露营的场景也越来越多元化，既有自己搭帐篷的，也有“拎包入住式”的。私家车的普及、城乡道路等基础设施建设的完善，也是露营经济的有力推手。  </td>
+<td>          èrlíngèrlíng nián yě bèi chēngwéi zhōngguó lùyíng yuánnián 。 zài suíhòu de liǎngnián lǐ ， shòu yìqíng diéjiā yǐngxiǎng ， lùtiān kāifàng de jìnjiāo yóu hé wú jiēchù fúwù ， chéngwéi gēng duō yóukè de xuǎnzé 。 rújīn lùyíng de chǎngjǐng yě yuèláiyuè duōyuánhuà ， jìyǒu zìjǐ dāzhàngpéng de ， yě yǒu “ līnbāo rùzhù shì ” de 。 sījiāchē de pǔjí  chéngxiāng dàolù děng jīchǔshèshī jiànshè de wánshàn ， yě shì lùyíng jīngjì de yǒulì tuīshǒu 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 2020年は中国キャンプ元年とも言われます。それから2年間、コロナ禍の影響もあって、露天で開放的な近郊ツアーと接触ゼロのサービスは、いっそう多くの観光客から喜ばれるようになりました。今やキャンプシーンもますます多様化していて、自分でテントを張る形があれば、「バッグ1つで泊まれる方式」もあります。自家用車の普及、都市部と地方を結ぶ道路などインフラの整備も、キャンプ経済を強く後押ししました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+            </tbody></table>
+  </div>
+        <div class="dataContent dataNone">
+  <table border="1">
+            
+    <tbody><tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          段No.        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 簡体字  </td>
+<td>          ピンイン</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 日本語訳  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 第6课  北京冬奥点滴  </td>
+<td>          dì liù kè     běijīng dōngào diǎndī</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 北京冬季五輪のエピソード  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 虽然北京奥运会已经过去一年了，但是它留下的点点滴滴至今令人记忆犹新。  </td>
+<td>          suīrán běijīng àoyùnhuì yǐjīng guòqu yīnián le ， dànshì tā liúxià de diǎndiǎndīdī zhìjīn lìngrén jìyìyóuxīn 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 北京冬季オリンピックが終わってもう１年になりますが、残されたこぼれ話は今でも人々の記憶に新しいままです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜1＞        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> “汽包”＝闭环式管理  </td>
+<td>          “ qìbāo ” ＝ bìhuán shì guǎnlǐ</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> バブル＝クローズループ式管理  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 法新社说，“为了阻止新冠病毒，中国将在一个无法穿透的巨大’气包′中举办北京冬奥会。”东京奥运会时，媒体记者可以在隔离两周后离开“气包”，进入公共环境。但是，在北京冬奥运会期间，所有人员都不能离开“气包”。运动员就不用说了，教练、官员和媒体记者，数千名志愿者、清洁工、厨师、司机一旦进入闭环之中，就再也无法出去，直到奥运会结束。  </td>
+<td>          fǎxīnshè shuō ， “ wèile zǔzhǐ xīnguān bìngdú ， zhōngguó jiàng zài yīgè wúfǎ chuāntòu de jùdà ’ qìbāo ′ zhōng jǔbàn běijīng dōngàohuì 。 ” dōngjīng àoyùnhuì shí ， méitǐ jìzhě kěyǐ zài gélí liǎngzhōu hòu líkāi “ qìbāo ” ， jìnrù gōnggòng huánjìng 。 dànshì ， zài běijīng dōng àoyùnhuì qījiān ， suǒyǒu rényuán dū bùnéng líkāi “ qìbāo ” 。 yùndòngyuán jiù bùyòngshuō le ， jiàoliàn  guānyuán hé méitǐ jìzhě ， shùqiānmíng zhìyuànzhě  qīngjiégōng  chúshī  sījī yīdàn jìnrù bìhuán zhīzhōng ， jiù zàiyě wúfǎ chūqù ， zhídào àoyùnhuì jiéshù 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> AEP社は「新型コロナウイルスを食い止めるため、中国は通り抜けることのできない巨大な『バブル』の中で北京オリンピックを開く」と述べました。東京オリンピックのときは、メディアの記者は２週間の隔離後「バブル」を出て公共の場に入ることができました。しかし北京冬季オリンピックの間は、誰も「バブル」を離れることができません。選手はもとより、コーチ、スタッフ、メディア記者、数千人のボランティア、清掃業者、料理人、運転手も、いったんクローズループの中に入ればオリンピックが終わるまで外には出られないのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          &lt;2&gt;        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 美食“从天而降”  </td>
+<td>          měishí “ cóngtiānérjiàng ”</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> ご馳走が「空から降臨」  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 在智慧餐厅，饺子、宫保鸡丁、煲仔饭等美食通过餐桌上方的机械化轨道自动发达。一位就餐人员说：“边吃边看机器人炒菜送餐，太有趣了。”除了地道的中国菜，机器人大厨还可以制作汉堡、披萨、鸡尾酒等多种菜肴和饮料。不少用餐的人表示，机器人大厨水平不亚于人工厨师。  </td>
+<td>          zài zhìhuì cāntīng ， jiǎozi  gōngbǎojī dīng  bāozǐfàn děng měishí tōngguò cānzhuō shàngfāng de jīxièhuà guǐdào zìdòng fādá 。 yīwèi jiùcān rényuán shuō ： “ biān chī biān kàn jīqìrén chǎocài sòngcān ， tài yǒuqù le 。 ” chúle dìdao de zhōngguó cài ， jīqìrén dàchú huán kěyǐ zhìzuò hànbǎo  pīsà  jīwěijiǔ děng duōzhǒng càiyáo hé yǐnliào 。 bùshǎo yòngcān de rén biǎoshì ， jīqìrén dàchú shuǐpíng bùyàyú réngōng chúshī 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> スマートレストランでは、ギョウザ、鶏肉とピーナッツの炒め物、香港式炊き込みご飯などのご馳走がテーブルの上のレールから自動で届けられます。食事をしていた人は、「食べながら、ロボットが調理して料理を運んでくるのを見ているのはすごく面白いよ」と話しました。本場の中国料理のほか、調理ロボットはハンバーガー、ピザ、カクテルなど様々なご馳走と飲み物を作れます。食事中の人の多くは、調理ロボットのレベルは人間のシェフに引けを取らないと話しました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          &lt;3&lt;        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 志愿者  </td>
+<td>          zhìyuànzhě</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> ボランティア  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          1        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 国际奥委会主席巴赫在冬奥会闭幕式致辞中说：“我要对所有志愿者说，你们眼中的笑意温暖了我们的心田，你们的友好善意将永驻我们心中。”日本女子速滑选手小平奈绪也在自己社交媒体上用中文感谢北京：“亲爱的志愿者和工作人员，非常感谢大家的热情招待，我度过了非常难忘的三周。”  </td>
+<td>          guójìàowěihuì zhǔxí bāhè zài dōngàohuì bìmùshì zhìcí zhōngshuō ： “ wǒyào duì suǒyǒu zhìyuànzhě shuō ， nǐmen yǎnzhōng de xiàoyì wēnnuǎn le wǒmen de xīntián ， nǐmen de yǒuhǎo shànyì jiàng yǒngzhù wǒmen xīnzhōng 。 ” rìběn nǚzǐ sùhuá xuǎnshǒu xiǎopíngnàixù yě zài zìjǐ shèjiāo méitǐ shàngyòng zhōngwén gǎnxiè běijīng ： “ qīnài de zhìyuànzhě hé gōngzuòrényuán ， fēichánggǎnxiè dàjiā de rèqíng zhāodài ， wǒ dùguò le fēicháng nánwàng de sānzhōu 。 ”</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 冬季オリンピックの閉会式の挨拶で、国際オリンピック委員会のバッハ会長は「すべてのボランティアに申し上げたい。あなたがたの目に浮かぶ笑みが私たちの心を温め、あなたがたの友情と善意は永遠に私たちの心に残るだろう」と述べました。日本の女子スピードスケートの小平奈緒選手も、自身のSNSに中国語で北京への感謝を書き込みました。「親愛なるボランティアとスタッフの皆さん、温かいおもてなしに感謝します。忘れられない３週間になりました。」  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          2        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 在冬奥会的各个角落，都活跃着志愿者的身影，他们和这场盛宴融为一体，用微笑感动他人，成为北京奥运会“最美的名片”。  </td>
+<td>          zài dōngàohuì de gègè jiǎoluò ， dū huóyuè zhe zhìyuànzhě de shēnyǐng ， tāmen hé zhèchǎng shèngyàn róngwéiyītǐ ， yòng wēixiào gǎndòng tārén ， chéngwéi běijīng àoyùnhuì “ zuìměi de míngpiàn ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 冬季オリンピックの至るところで、ボランティアが活躍していました。彼らはこの祭典と一体となり、笑顔で人の心を動かし、北京冬季オリンピックの「最高の顔」となったのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+            </tbody></table>
+  </div>
+        <div class="dataContent dataNone">
+  <table border="1">
+            
+    <tbody><tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          段No.        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 簡体字  </td>
+<td>          ピンイン</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 日本語訳  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 第7课  字，也能写出时代感  </td>
+<td>          dì 7 kè     zì ， yě néng xiěchū shídàigǎn</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 文字は時代を映し出す  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          No.1        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 中国人喜欢说，字如其人。的确，就好像没有人会长得一摸一样，几乎没有人写的字会完全一样。无论在哪个年代，字都是这个人的一张名片。通过笔迹，还可以观察出一个人的性格和品位。  </td>
+<td>          zhōngguó rén xǐhuan shuō ， zì rúqírén 。 díquè ， jiù hǎoxiàng méiyǒu rén huìzhǎng dé yīmō yīyàng ， jīhū méiyǒu rénxiě de zìhuì wánquán yīyàng 。 wúlùn zài nǎge niándài ， zì dū shì zhège rén de yīzhāng míngpiàn 。 tōngguò bǐjì ， huán kěyǐ guānchá chū yīgè rén de xìnggé hé pǐnwèi 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 中国人はよく「文字は人を表す」と言います。確かに、瓜二つの人がいないのと同じように、人の書いた文字がまったく同じということもまずないでしょう。どの年代でも、文字はその人を表しています。筆跡を通して1人の人の性格や品位が見て取れるのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          No.2        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 在今天的中国，练字的好处也很多。首先各种入学考试中，字写得很好，也可以加分。你想想，入学考试的作文题，字写得好看，阅卷老师的印象分不就上去了吗？为了让孩子的字写得漂亮一点，家长会买来各种书法帖子，还会选择练字培训班等等。  </td>
+<td>          zài jīntiān de zhōngguó ， liànzì de hǎochu yě hěnduō 。 shǒuxiān gèzhǒng rùxuékǎoshì zhōng ， zì xiě dé hěn hǎo ， yě kěyǐ jiā fēn 。 nǐ xiǎngxiang ， rùxuékǎoshì de zuòwéntí ， zì xiě dé hǎokàn ， yuèjuàn lǎoshī de yìnxiàngfēn bù jiù shàngqu le ma ？ wèile ràng háizi de zì xiě dé piàoliang yīdiǎn ， jiāzhǎnghuì mǎilái gèzhǒng shūfǎ tiězi ， huánhuì xuǎnzé liànzì péixùnbān děngděng 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 今日の中国でも、習字のメリットはたくさんあります。まず様々な入学試験で、字がきれいなら加点がつくことも。だって考えてもみてください。入学試験の作文の問題で、字がきれいだったら、採点する先生の印象点が上がらないはずがあるでしょうか。子供に少しでもきれいな字を書かせるため、保護者はさまざまな書道のお手本を買い込んだり、習字塾を選んだりするのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          No.3        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 但是，更多的孩子很难抗拒流行的字体。比如，女生们喜欢的“饺子体”:每个字都是圆圆滚滚的，十分可爱甜美，忍不住想掐一下。2022年北京冬奥会的吉祥物“冰墩墩”人气爆棚后，“饺子体”也被叫做了“冰墩墩体”。  </td>
+<td>          dànshì ， gēng duō de háizi hěnnán kàngjù liúxíng de zìtǐ 。 bǐrú ， nǚshēng men xǐhuan de “ jiǎozi tǐ ” : měige zì dū shì yuányuán gǔngǔn de ， shífēn kěài tiánměi ， rěnbuzhù xiǎng qiā yīxià 。 èrlíngèrèr nián běijīng dōngàohuì de jíxiángwù “ bīngdūn dūn ” rénqì bàopéng hòu ， “ jiǎozi tǐ ” yě bèi jiàozuò le “ bīngdūn dūntǐ ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> しかし、より多くの子供たちは流行りの字体に抗えません。例えば、女の子たちが好む「ギョーザ体」。１つひとつの文字がころころと可愛らしくて、つんつんつまんでつつみたくなってしまいます。2022年の北京冬季オリンピックのマスコット「ビンドゥンドゥン」が爆発的な人気を博した後、「ギョーザ体」は「ビンドゥンドゥン体」とも呼ばれるようになりました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          No.4        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 其次是“奶酪体”，很受学生欢迎。网上还有专门教怎么写“奶酪体”的视频和说明书。“奶酪体”每个字的最后一笔非常有特点，可以说是“饺子体”的加强版。但是，“饺子体”也好“奶酪体”也好，由于笔画数不正规，在考试中占不到优势。  </td>
+<td>          qícì shì “ nǎilào tǐ ” ， hěnshòu xuésheng huānyíng 。 wǎngshàng háiyǒu zhuānmén jiào zěnme xiě “ nǎilào tǐ ” de shìpín hé shuōmíngshū 。 “ nǎilào tǐ ” měige zì de zuìhòu yībǐ fēicháng yǒu tèdiǎn ， kěyǐ shuō shì “ jiǎozi tǐ ” de jiāqiángbǎn 。 dànshì ， “ jiǎozi tǐ ” yěhǎo “ nǎilào tǐ ” yěhǎo ， yóuyú bǐhuàshù bù zhèngguī ， zài kǎoshì zhōng zhàn bùdào yōushì 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> お次は「チーズ体」、学生に人気です。ネットには「チーズ体」の書き方を教える専門の動画や説明書まであります。「チーズ体」はどの文字も最後の一画に大きな特徴があり、「ギョーザ体」の強化版とも言えます。しかし、「ギョーザ体」にしても「チーズ体」にしても、筆画数が正式ではないため、テストでは有利に働きません。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          No.5        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 赵今麦，是一名知名演员，也是一名学霸，高考以优秀成绩被中戏录取。而且，学霸的字也很漂亮，字体简单而不张狂，平稳中带着一丝丝优雅，给人一种非常安静的感觉。对阅卷的老师们来说，赵今麦体非常“养眼”。  </td>
+<td>          zhàojīn mài ， shì yīmíng zhīmíngyǎnyuán ， yě shì yīmíng xuébà ， gāokǎo yǐ yōuxiù chéngjì bèi zhōngxì lùqǔ 。 érqiě ， xuébà de zì yě hěnpiāoliàng ， zìtǐ jiǎndān ér bù zhāngkuáng ， píngwěn zhōngdài zhe yīsīsī yōuyǎ ， gěi rén yīzhǒng fēicháng ānjìng de gǎnjué 。 duì yuèjuàn de lǎoshī men láishuō ， zhàojīn màitǐ fēicháng “ yǎngyǎn ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 趙今麦さんは有名な俳優で、成績もトップクラスです。大学入試では優秀な成績で中央戯劇学院に合格しました。そのうえ彼女は字もきれいです。字体はシンプルで浮ついたところがなく、穏やかな中にほんのりと優雅さがあり、物静かな感じがします。採点する先生にとって、趙今麦体はたいへん「目の保養」になるのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          No.6        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 对学生来讲，每天能做的事情只有学习，而学习总是枯燥乏味的，可爱的字体或许也能给他们提供一点乐趣。  </td>
+<td>          duì xuésheng láijiǎng ， měitiān néng zuò de shìqing zhǐyǒu xuéxí ， ér xuéxí zǒngshì kūzàofáwèi de ， kěài de zìtǐ huòxǔ yě néng gěi tāmen tígōng yīdiǎn lèqù 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 学生にとって、毎日やっていいことは勉強しかありません。しかし勉強はいつも味気ないものです。可愛い字体は彼らにささやかな楽しみを運んでいるのかもしれません。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+            </tbody></table>
+  </div>
+        <div class="dataContent dataNone">
+  <table border="1">
+            
+    <tbody><tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          段No.        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 簡体字  </td>
+<td>          ピンイン</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 日本語訳  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          第8课        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 饮食花絮  </td>
+<td>          yǐnshí huāxù</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 飲食こぼれ話  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜1＞第1段1句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 2021年，早餐工程列入上海市的民心工程。  </td>
+<td>          èrlíngèryī nián ， zǎocān gōngchéng lièrù shànghǎishì de mínxīngōngchéng 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 2021年、朝食プロジェクトが上海市の庶民生活プロジェクトに加わり、  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜1＞第1段2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 2022年，上海“早餐地图”正式上线。  </td>
+<td>          èrlíngèrèr nián ， shànghǎi “ zǎocān dìtú ” zhèngshì shàngxiàn 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 2022年には、 上海の「朝食マップ」 が正式にリリースされました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜1＞第1段3句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 杨浦区的“互联宝地”园区里住着众多互联网从业人员。  </td>
+<td>          yángpǔqū de “ hùlián bǎodì ” yuánqū lǐ zhù zhe zhòngduō hùliánwǎng cóngyèrényuán 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 楊浦区の「互聯宝地」 団地 には、インターネット関連の仕事をしている人がたくさん住んでいます。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜1＞第1段4句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 园区内的“逸刻”便利店提供豆浆油条、馄饨、面条等中式早餐，也提供西式口味的咖啡面包等。  </td>
+<td>          yuánqū nèi de “ yìkè ” biànlìdiàn tígōng dòujiāng yóutiáo  húntun  miàntiáo děng zhōngshì zǎocān ， yě tígōng xīshì kǒuwèi de kāfēi miànbāo děng 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 団地内の「逸刻」 コンビニエンスストアでは、豆乳に揚げパン、ワンタン、麺類といった中国式の朝食も、洋風のコーヒーとパンなども提供しています。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜1＞第1段5句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 上班族既可以到店堂食，还可以线上下单，到店取餐。  </td>
+<td>          shàngbānzú jì kěyǐ dào diàntáng shí ， huán kěyǐ xiàn shàngxià dān ， dào diàn qǔcān 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 通勤族は店でイートインもできるし、オンラインで注文しておいて、店に取りに来ることもできます。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜1＞第2段1句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 有了“早餐地图”，人们只要打开手机，查找身边的早餐网点，就能享受晨间幸福。  </td>
+<td>          yǒu le “ zǎocān dìtú ” ， rénmen zhǐyào dǎkāi shǒujī ， cházhǎo shēnbiān de zǎocān wǎngdiǎn ， jiù néng xiǎngshòu chénjiān xìngfú 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 「朝食マップ」ができてから、人々はスマホで近くの朝食スポットを探しさえすれば、 朝の幸せを味わえるようになりました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜1＞第2段2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> “早餐地图”上每增加一个标记，城市空间里就多一个热气腾腾的早餐空间。  </td>
+<td>          “ zǎocān dìtú ” shàng měi zēngjiā yīgè biāojì ， chéngshì kōngjiān lǐ jiù duō yīgè rèqìténgténg de zǎocān kōngjiān 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 「朝食マップ」にアイコンが増えるごとに、都市空間にはホカホカの朝食スペースが増えるのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜2＞第1段1句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 每年夏天都是小龙虾消费的旺季，街头路边小龙虾摊位的飘香往往会引来一众吃货。  </td>
+<td>          měinián xiàtiān dū shì xiǎolóngxiā xiāofèi de wàngjì ， jiētóu lùbiān xiǎolóngxiā tānwèi de piāoxiāng wǎngwǎng huì yǐnlái yīzhòng chīhuò 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 毎年夏はザリガニの旬で、街角や道端のザリガニ屋台から漂う香りはしばしば大 勢の食いしん坊を惹きつけます。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜2＞第1段2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 然而，2021年夏天以后，小龙虾突然呈断崖式下跌。  </td>
+<td>          ránér ， èrlíngèryī nián xiàtiān yǐhòu ， xiǎolóngxiā tūrán chéng duànyá shì xiàdiē 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> しかし2021年の夏以降、ザリガニは急に人気が落ち ました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜2＞第2段1句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 吃小龙虾的时候，需要自己动手剥壳，费劲费时间。  </td>
+<td>          chī xiǎolóngxiā de shíhou ， xūyào zìjǐ dòngshǒu bōké ， fèijìn fèishíjiān 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> ザリガニを食べるときは手で殻を剥かなくてはならず、手間も時間もかかります。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜2＞第2段2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 但是大家围坐着一起吃，可谓其乐无穷，吃小龙虾也可以说是一种社交活动。  </td>
+<td>          dànshì dàjiā wéizuòzhe yīqǐ chī ， kěwèi qílèwúqióng ， chī xiǎolóngxiā yě kěyǐ shuō shì yīzhǒng shèjiāohuódòng 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> し かしみんなで輪になって一緒に食べるのはそれこそ無上の楽しみで、ザリガニを食べる ことは人づきあいの1つだとも言えます。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜2＞第2段3句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 但是，2021年以后，由于受到疫情影响，餐饮业的堂食时间被缩短，聚餐的机会也没有那么多了，自然导致小龙虾的消费下降。  </td>
+<td>          dànshì ， èrlíngèryī nián yǐhòu ， yóuyú shòudào yìqíng yǐngxiǎng ， cānyǐnyè de táng shí shíjiān bèi suōduǎn ， jùcān de jīhuì yě méiyǒu nàme duō le ， zìrán dǎozhì xiǎolóngxiā de xiāofèi xiàjiàng 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> ところが2021年以降、コロナ禍の影響で飲 食業の店内飲食時間が短縮され、会食の機会も少なくなって、自然とザリガニ消費が減 ることになったのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜3＞第1段1句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> “華美社區剩食廚房”位於台中市西區，廚師名叫葉凱維。  </td>
+<td>          “ huáměi shèqū shèngshí chúfáng ” wèi yú táizhōngshì xīqū ， chúshī míngjiào yèkǎiwéi 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 「華美社区残り物キッチン」は台中市西区にあり、料理人の名前は葉葉凱維といいま す。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜3＞第1段2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 今年三十出頭的他，每到黃昏，便會到市集尋寶，將許多店家賣不出去的“醜蔬果”帶回廚房。  </td>
+<td>          jīnnián sānshí chūtóu de tā ， měidào huáng hūn ， biànhuì dào shìjí xúnbǎo ， jiàngxǔ duō diànjiā mài bù chūqù de “ chǒu shūguǒ ” dàihuí chúfáng 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 今年30過ぎの彼は、いつも黄昏の訪れとともに市場に宝探しにやってきて、多く の店に出せない 「わけあり野菜や果物」 をキッチンに持って帰るのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜3＞第2段1句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 葉凱維早在2016年就成立了一個網上的社團，取名為“剩食終結者”。  </td>
+<td>          yèkǎiwéizǎo zài èrlíngyīliù nián jiù chénglì le yīgè wǎngshàng de shètuán ， qǔmíng wéi “ shèngshízhōng jiézhě ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 葉凱維、さんは、2016年には「残り物ターミネーター」というオンラインサークルを 作っていました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜3＞第2段2句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 中秋月餅吃不完、店家煮太多賣不完，都可以在社團上分享給需要的人。  </td>
+<td>          zhōngqiūyuè bǐng chībùwán  diànjiā zhǔ tài duō mài bù wán ， dū kěyǐ zài shètuán shàng fēnxiǎng gěi xūyào de rén 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> 中秋節に食べきれなかった月餅や、店で作りすぎて売れ残った料理は、 サークルで必要な人にシェアできます。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜3＞第2段3句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 早期，這個平台被家裏長輩看到，說是“很丟臉”。  </td>
+<td>          zǎoqī ， zhège píngtái bèijiā lǐ cháng bèi kàndào ， shuō shì “ hěn diūliǎn ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> はじめのうち、このサイトを見た年配の家族に は「みっともない」 と言われました。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>          ＜3＞第2段4句        </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 但是，葉凱維和夥伴致力翻轉價值觀，六年來，讓剩食再利用的觀念也愈見普遍。  </td>
+<td>          dànshì ， yèkǎi wéihéhuǒbàn zhìlì fānzhuǎn jiàzhíguān ， liùnián lái ， ràng shèngshí zài lìyòng de guānniàn yě yù jiàn pǔbiàn 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn"> しかし、葉さんと仲間は価値観を変えようと 取り組んできて、6年の間に残り物の再利用という考え方もよりいっそう広く受け入れ られるようになったのです。  </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> “华美社区剩食厨房”位于台中市西区，厨师名叫叶凯维。  </td>
+<td>          “ huáměi shèqū shèngshí chúfáng ” wèiyú táizhōngshì xīqū ， chúshī míngjiào yèkǎiwéi 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn">   </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 今年三十出头的他，每到黄昏，便会到市集寻宝，将许多店家卖不出去的“丑蔬果”带回厨房。  </td>
+<td>          jīnnián sānshíchūtóu de tā ， měidào huánghūn ， biànhuì dào shìjí xúnbǎo ， jiàng xǔduō diànjiā màibùchūqù de “ chǒu shūguǒ ” dàihuí chúfáng 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn">   </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 叶凯维早在2016年就成立了一个网上的社团，取名为“剩食终结者”。  </td>
+<td>          yèkǎiwéizǎo zài èrlíngyīliù nián jiù chénglì le yīgè wǎngshàng de shètuán ， qǔmíngwéi “ shèngshí zhōngjiézhě ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn">   </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 中秋月饼吃不完、店家煮太多卖不完，都可以在社团上分享给需要的人。  </td>
+<td>          zhōngqiūyuèbǐng chībùwán  diànjiā zhǔ tài duō mài bù wán ， dū kěyǐ zài shètuán shàng fēnxiǎng gěi xūyào de rén 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn">   </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 早期，这个平台被家里长辈看到，说是“很丢脸”。  </td>
+<td>          zǎoqī ， zhège píngtái bèi jiālǐ zhǎngbèi kàndào ， shuō shì “ hěn diūliǎn ” 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn">   </td>  
+        
+        <td>                    </td>
+
+    </tr>
+                
+    <tr>
+     
+      
+    
+      
+      </tr><tr>
+
+      <td>                  </td>
+      <td onclick="speakChinese(this)" class="clkBtn"> 但是，叶凯维和伙伴致力翻转价值观，六年来，让剩食再利用的观念也愈见普遍。  </td>
+<td>          dànshì ， yèkǎi wéihé huǒbàn zhìlì fānzhuǎn jiàzhíguān ， liùnián lái ， ràng shèngshí zài lìyòng de guānniàn yě yù jiàn pǔbiàn 。</td>
+       <td onclick="speakJapanese(this)" class="clkBtn">   </td>  
+        
+        <td>                    </td>
+
+    </tr>
+            </tbody></table>
+  </div>
+        
+<script>
+  iniCSSSet();
+  var swJapanese = false;  
+var tdOLD;
+
+  var voiceSelect = document.querySelector('#tts-select');
+  var voiceSelectJP = document.querySelector('#jp-select');  
+  var voices = speechSynthesis.getVoices();
+  var osAndroid = false;
+  var ua = window.navigator.userAgent.toLocaleLowerCase();
+  
+  if (ua.indexOf("windows") !== -1) {
+        osAndroid = false;
+        console.log(ua);
+        console.log(ua.indexOf("windows"));
+      } else {
+        osAndroid = true;
+        console.log(ua);
+        console.log(ua.indexOf("android"));
+
+      }
+  
+  
+  
+  
+  
+  let select = document.querySelector('[name="sheetSelect"]');
+
+  select.onchange = event => { 
+    var selIndex = select.selectedIndex;
+    console.log(select.selectedIndex);
+    var classElement = document.getElementsByClassName('dataContent');
+    for (let i = 0; i < classElement.length; i++) {
+      if (selIndex === i) {
+    
+        classElement[i].classList.remove("dataNone");
+      } else {
+        classElement[i].classList.add("dataNone");
+
+       }
+    
+    }
+  }
+  
+
+   
+  function fetchVoices(cb) {
+    if (!voices || !voices.length) {
+      setTimeout(function () {
+        voices = speechSynthesis.getVoices();
+        fetchVoices(cb);
+      }, 0);
+    }
+    else {
+      cb(voices);
+    }
+  }
+
+  function drawButtons(voices) {
+    for (i = 0; i < voices.length; i++) {
+      if (!osAndroid) {
+
+        if (voices[i].lang == 'zh-CN') {
+          var option = document.createElement('option');
+          option.textContent = voices[i].name;
+          option.setAttribute('data-lang', voices[i].lang);
+          option.setAttribute('data-name', voices[i].name);
+          voiceSelect.appendChild(option);
+          console.log(option);
+         
+        } else if(voices[i].lang == 'ja-JP') {
+
+          var option = document.createElement('option');
+          option.textContent = voices[i].name;
+          option.setAttribute('data-lang', voices[i].lang);
+          option.setAttribute('data-name', voices[i].name);
+          voiceSelectJP.appendChild(option);
+          console.log(option);
+        } else {
+          continue;
+        }
+      }
+
+    }
+
+  }
+  
+  function speakChinese(param1, param2) {
+    swJapanese = false;
+    speakData(param1, param2);
+
+  }
+  function speakJapanese(param1, param2) {
+    swJapanese = true;
+    speakData(param1, param2);
+
+  }
+  
+  function speakData(param1, param2) {
+
+    if (param1 instanceof HTMLTableCellElement) {
+      const td = param1;
+
+
+     if (tdOLD === undefined){
+        tdOLD = param1;
+      } else {
+        tdOLD.style.backgroundColor = null;
+        tdOLD = param1;
+      }
+      
+
+      
+      const synth = window.speechSynthesis;
+      const column = td.cellIndex;
+      const tr = td.parentNode;
+      const row = tr.sectionRowIndex;
+      
+      console.log("行row=" + row + " 列column=" + column);
+      console.log(td.textContent);
+      const utterence = new SpeechSynthesisUtterance();
+      
+      console.log(utterence);
+      
+       td.style.backgroundColor = 'cyan';
+       
+      if (osAndroid) {
+        speakAndroid(td.textContent);
+        
+      } else {
+        
+        if (swJapanese) {
+          var selectedIndex = voiceSelectJP.selectedIndex < 0 ? 0 : voiceSelectJP.selectedIndex;
+          var selectedOption = voiceSelectJP.selectedOptions[0].getAttribute('data-name');
+        
+        } else {
+          var selectedIndex = voiceSelect.selectedIndex < 0 ? 0 : voiceSelect.selectedIndex;
+          var selectedOption = voiceSelect.selectedOptions[0].getAttribute('data-name');
+
+        }
+        speak(selectedOption, td.textContent);
+
+        
+
+      }
+
+    }
+
+  }
+  function speak(voiceName, speakText) {
+    var uttr = new SpeechSynthesisUtterance(speakText);
+
+    
+    if (!voices || !voices.length) {
+      voices = speechSynthesis.getVoices();
+    }
+    voices.forEach(function (v, i) {
+      if (v.name == voiceName) uttr.voice = v;
+    });
+    uttr.rate = speakSpeedRate();  
+    speechSynthesis.cancel();
+    speechSynthesis.speak(uttr);
+  }
+  function speakAndroid(speakText) {
+    var uttr = new SpeechSynthesisUtterance(speakText);
+    
+    if (swJapanese) {
+      uttr.lang = "ja-JP"
+
+    } else {
+      uttr.lang = "zh-CN"
+
+    }
+    uttr.rate = speakSpeedRate();  
+    speechSynthesis.cancel();
+    speechSynthesis.speak(uttr);
+  }
+  
+  function iniCSSSet() {
+    var classElement = document.getElementsByClassName('dataContent');
+    for (let i = 1; i < classElement.length; i++) {
+      classElement[i].classList.add("dataNone");
+    }
+    
+  }
+  
+  function speakSpeedRate() {
+    
+    let select = document.querySelector('[name="speechSpeed"]');
+    
+    var rate = parseFloat(select.selectedOptions[0].value);
+    return rate;
+
+  }
+  
+  fetchVoices(drawButtons);
+
+
+  </script>
+
+
+</body>
+</html>
